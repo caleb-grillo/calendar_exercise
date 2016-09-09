@@ -1,6 +1,6 @@
 #Recreates Gregorian calendar in Python, inclusive of leap years.
 #Created as a programming exercise as part of the CS101 course on Udacity.
-#There are definitely better ways to do this in Python - this is only an exercise :)
+#There are definitely better ways to do this in Python (namely, the datetime module) - this is only an exercise :)
 
 def isLeapYear(year):
     if year % 400 == 0:
